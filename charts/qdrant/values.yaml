@@ -167,6 +167,9 @@ snapshotRestoration:
   #  - /qdrant/snapshot-restoration/test_collection/test_collection-2022-10-24-13-56-50.snapshot:test_collection
 
 # modification example for configuration to overwrite defaults
+clusterConfig:
+  leaderIndex: 0
+
 config:
   cluster:
     enabled: true
